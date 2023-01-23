@@ -1,21 +1,33 @@
 :root {
     --bg: #131316;
-    --txt: #EFEFFE
+    --txt: #EFEFFE;
+    --txt2: #bbbbbb;
 }
 
 body {
     margin: 0;
     padding: 0;
 
-    background-color: var(--bg);
+    font-family: 'Rubik', sans-serif;
     color: var(--txt);
-
+    
     width: 100vw;
     height: 100vh;
     overflow: auto;
+    background-color: var(--bg);
 }
 
 .noMP {
     margin: 0;
     padding: 0;
+}
+
+a.noStyle:link {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+a.noStyle:visited {
+    text-decoration: inherit;
+    color: inherit;
 }
